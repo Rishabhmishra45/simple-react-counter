@@ -1,0 +1,54 @@
+/* Center the component nicely on the screen */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #ffe0b2);
+  }
+  
+  
+  /* Styled container for the counter */
+  .Countercon {
+    background-color: #fdf6e3; /* soft beige */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border: 2px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .Countercon:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Paragraph styling */
+  #para {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Button styling */
+  #btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  #btn:hover {
+    background-color: #45a049;
+  }
+  
